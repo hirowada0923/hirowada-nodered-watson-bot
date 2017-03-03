@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: hirowada-nodered-watson-bot
+  host: hirowada-nodered-watson-bot
+  disk_quota: 1024M
+  services:
+  - hirowada-nodered-watson-bot-cloudantNoSQLDB
